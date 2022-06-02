@@ -23,6 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPat
 		DesignPatterns\README.md = DesignPatterns\README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPrinciples", "DesignPrinciples", "{B45B8330-5131-446A-BD79-BDD95853976A}"
+	ProjectSection(SolutionItems) = preProject
+		DesignPrinciples\README.md = DesignPrinciples\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -31,6 +36,7 @@ Global
 		{1139D0FB-FCB6-46B3-AF25-B50D913DDAC5} = {45CC7923-4E1E-4C4B-97AA-A90565CC03CD}
 		{2C02F19E-7060-4DE8-8772-FB418C854960} = {45CC7923-4E1E-4C4B-97AA-A90565CC03CD}
 		{B56DF1C6-02C1-40DB-92AE-45D629BAEEC3} = {45CC7923-4E1E-4C4B-97AA-A90565CC03CD}
+		{B45B8330-5131-446A-BD79-BDD95853976A} = {45CC7923-4E1E-4C4B-97AA-A90565CC03CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CAB0F707-8437-443E-BDA5-19E34978A360}
