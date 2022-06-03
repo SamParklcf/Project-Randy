@@ -1,40 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DirectedGraph DataVirtualized="True" GraphDirection="TopToBottom" Layout="ForceDirected" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+<DirectedGraph DataVirtualized="True" GraphDirection="LeftToRight" Layout="ForceDirected" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="@10" Category="CodeSchema_Class" Bounds="78.6736373688872,55,115.266666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Originator" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Originator" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/Originator.cs StartLineNumber=15 StartCharacterOffset=17 EndLineNumber=15 EndCharacterOffset=27)" />
-    <Node Id="@11" Category="CodeSchema_Class" Bounds="-2.8421709430404E-14,110,141.33,25" CodeSchemaProperty_IsPublic="True" CommonLabel="StateParameter" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="StateParameter" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/StateParameter.cs StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=31)" />
-    <Node Id="@3" Category="CodeSchema_Class" Bounds="233.562270176067,68.0503626728662,135.153333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="CareTaker&lt;T&gt;" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CareTaker&lt;T&gt;" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/CareTaker.cs StartLineNumber=7 StartCharacterOffset=17 EndLineNumber=7 EndCharacterOffset=26)" />
-    <Node Id="@5" Category="CodeSchema_Interface" Bounds="252.261798957841,178.050362672866,115.64,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ICareTaker" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="ICareTaker" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/Abstractions/ICareTaker.cs StartLineNumber=2 StartCharacterOffset=21 EndLineNumber=2 EndCharacterOffset=31)" />
-    <Node Id="@6" Category="CodeSchema_Interface" Bounds="171.3301,123.050362672866,116.5,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IMomento" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IMomento" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/Abstractions/IMomento.cs StartLineNumber=4 StartCharacterOffset=21 EndLineNumber=4 EndCharacterOffset=29)" />
-    <Node Id="@7" Category="CodeSchema_Interface" Bounds="173.193771332396,-1.4210854715202E-14,113.496666666667,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ISnapshot" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="ISnapshot" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/Abstractions/ISnapshot.cs StartLineNumber=2 StartCharacterOffset=21 EndLineNumber=2 EndCharacterOffset=30)" />
-    <Node Id="@8" Category="CodeSchema_Interface" Bounds="50.6333333333333,165,90.6966666666667,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IState" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IState" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/Abstractions/IState.cs StartLineNumber=4 StartCharacterOffset=21 EndLineNumber=4 EndCharacterOffset=27)" />
-    <Node Id="@9" Category="CodeSchema_Class" Bounds="77.8148135765226,220,113.306666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Momento" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Momento" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/Momento.cs StartLineNumber=7 StartCharacterOffset=17 EndLineNumber=7 EndCharacterOffset=24)" />
+    <Node Id="@10" Category="CodeSchema_Class" Bounds="73.2280783712371,50.2603467908903,115.266666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Originator" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Originator" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/Originator.cs StartLineNumber=15 StartCharacterOffset=17 EndLineNumber=15 EndCharacterOffset=27)" UseManualLocation="True" />
+    <Node Id="@11" Category="CodeSchema_Class" Bounds="-72.6074534161489,105.26044679089,141.33,25" CodeSchemaProperty_IsPublic="True" CommonLabel="StateParameter" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="StateParameter" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/StateParameter.cs StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=31)" UseManualLocation="True" />
+    <Node Id="@3" Category="CodeSchema_Class" Bounds="297.093791975128,56.5541825472913,135.153333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="CareTaker&lt;T&gt;" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CareTaker&lt;T&gt;" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/CareTaker.cs StartLineNumber=7 StartCharacterOffset=17 EndLineNumber=7 EndCharacterOffset=26)" UseManualLocation="True" />
+    <Node Id="@5" Category="CodeSchema_Interface" Bounds="287.96046352686,208.303468261577,115.64,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ICareTaker" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="ICareTaker" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/Abstractions/ICareTaker.cs StartLineNumber=2 StartCharacterOffset=21 EndLineNumber=2 EndCharacterOffset=31)" UseManualLocation="True" />
+    <Node Id="@6" Category="CodeSchema_Interface" Bounds="180.406031677018,130.31110801313,116.5,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IMomento" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IMomento" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/Abstractions/IMomento.cs StartLineNumber=4 StartCharacterOffset=21 EndLineNumber=4 EndCharacterOffset=29)" UseManualLocation="True" />
+    <Node Id="@7" Category="CodeSchema_Interface" Bounds="173.193771387582,-6.25240848861285,113.496666666667,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ISnapshot" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="ISnapshot" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/Abstractions/ISnapshot.cs StartLineNumber=2 StartCharacterOffset=21 EndLineNumber=2 EndCharacterOffset=30)" />
+    <Node Id="@8" Category="CodeSchema_Interface" Bounds="-17.7386853002072,171.050571118012,90.6966666666667,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IState" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IState" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/Abstractions/IState.cs StartLineNumber=4 StartCharacterOffset=21 EndLineNumber=4 EndCharacterOffset=27)" UseManualLocation="True" />
+    <Node Id="@9" Category="CodeSchema_Class" Bounds="77.8148135741918,226.050671118012,113.306666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Momento" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Momento" SourceLocation="(Assembly=file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/Momento/Momento.cs StartLineNumber=7 StartCharacterOffset=17 EndLineNumber=7 EndCharacterOffset=24)" />
   </Nodes>
   <Links>
-    <Link Source="@10" Target="@11" Category="References" Bounds="92.4821757362498,80,28.9061652609207,24.2198561734658" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="32">
+    <Link Source="@10" Target="@11" Category="References" Bounds="36.5553047073387,75.2603467908903,64.123465256417,26.5564334158767" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="32">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_FunctionPointer" />
     </Link>
-    <Link Source="@10" Target="@6" Category="References" Bounds="153.440077278405,80,51.736284957195,37.7458436442497" IsSourceVirtualized="True" Weight="3">
+    <Link Source="@10" Target="@6" Category="References" Bounds="147.693640768761,75.2603467908903,66.9046573463972,49.684935586406" IsSourceVirtualized="True" Weight="3">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@10" Target="@7" Category="Implements" Bounds="157.587682966654,29.8115238940181,42.8822969912774,25.1884761059819" Weight="1" />
-    <Link Source="@10" Target="@8" Category="Implements" Bounds="125.61540222168,80,17.6806488037109,80.2131195068359" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+    <Link Source="@10" Target="@7" Category="Implements" Bounds="152.776971414566,23.4543310812914,46.997507029663,26.8060157095988" Weight="1" />
+    <Link Source="@10" Target="@8" Category="Implements" Bounds="44.4674460752032,75.2603467908903,75.7089366621412,88.568941757622" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
       <Category Ref="CodeSchema_Calls" />
     </Link>
-    <Link Source="@10" Target="@9" Category="CodeSchema_Calls" Bounds="138.603515625,80,12.8606719970703,131.369491577148" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="@3" Target="@5" Category="Implements" Bounds="302.155171173996,93.0503626728662,6.14059515664957,75.5312402827204" Weight="1" />
-    <Link Source="@3" Target="@6" Category="References" Bounds="252.979268451572,93.0503626728662,31.8962963814494,24.5154390202733" IsSourceVirtualized="True" Weight="9" />
-    <Link Source="@3" Target="@7" Category="CodeSchema_Calls" Bounds="249.526173883596,31.2185717697812,38.534795888032,36.831790903085" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@5" Target="@6" Category="References" Bounds="255.307150680778,153.127479749412,36.4788076048266,24.9228829234545" IsSourceVirtualized="True" Weight="1" />
-    <Link Source="@6" Target="@8" Category="Implements" Bounds="144.854526758416,148.050362672866,44.9163991206318,14.1036583000197" Weight="1" />
-    <Link Source="@7" Target="@6" Category="References" Bounds="229.643351225313,25,0.261979405595923,89.0504016197069" IsSourceVirtualized="True" Weight="2">
+    <Link Source="@10" Target="@9" Category="CodeSchema_Calls" Bounds="131.117877412848,75.2603467908903,2.90918733022107,141.792218039458" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@3" Target="@5" Category="Implements" Bounds="348.510001633162,81.5541825472913,14.604436907285,117.322045636084" Weight="1" />
+    <Link Source="@3" Target="@6" Category="References" Bounds="267.779738578106,81.5541825472913,75.5343480740608,44.2106623439748" IsSourceVirtualized="True" Weight="9" />
+    <Link Source="@3" Target="@7" Category="CodeSchema_Calls" Bounds="264.91343369841,22.550247137696,72.9428897350557,34.0039354095953" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@5" Target="@6" Category="References" Bounds="263.101010400883,160.608370075343,65.5103945943792,47.6950981862345" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@6" Target="@8" Category="Implements" Bounds="82.1335346920388,153.784521414194,99.6759153655374,19.2409990939792" Weight="1" />
+    <Link Source="@7" Target="@6" Category="References" Bounds="230.73971223529,18.7475915113871,6.54560005508785,102.581782661227" IsSourceVirtualized="True" Weight="2">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@8" Target="@11" Category="References" Bounds="80.1819829828174,143.17547323456,10.0458958050615,21.8245267654398" IsSourceVirtualized="True" Weight="1" />
-    <Link Source="@9" Target="@11" Category="References" Bounds="110.225090026855,138.346633911133,33.2636642456055,81.6533660888672" IsSourceVirtualized="True" Weight="6" />
-    <Link Source="@9" Target="@6" Category="Implements" Bounds="146.731208911987,154.831841217292,63.9328937373681,65.1681587827083" Weight="1" />
-    <Link Source="@9" Target="@8" Category="Implements" Bounds="110.175202086942,197.783602012509,15.5460174949163,22.216397987491" Weight="1" />
+    <Link Source="@8" Target="@11" Category="References" Bounds="7.36012442581682,138.470234683171,14.634679861473,32.5803364348411" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@9" Target="@11" Category="References" Bounds="30.8252582550049,134.319732666016,95.4033107757568,91.7309417724609" IsSourceVirtualized="True" Weight="6" />
+    <Link Source="@9" Target="@6" Category="Implements" Bounds="148.071181195367,161.739024406697,69.9866828257248,64.3116467113152" Weight="1" />
+    <Link Source="@9" Target="@8" Category="Implements" Bounds="60.3424357797204,200.398146353535,49.8397328126748,25.6525247644773" Weight="1" />
   </Links>
   <Categories>
     <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
@@ -61,7 +61,7 @@
     <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
     <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
     <Property Id="GroupLabel" DataType="System.String" />
-    <Property Id="Icon" Label="Icon" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
     <Property Id="IsSourceVirtualized" Label="Link Source Virtualized" Description="If true, the link source end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
@@ -72,6 +72,7 @@
     <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
     <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
     <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
     <Property Id="Value" DataType="System.String" />
     <Property Id="ValueLabel" DataType="System.String" />
     <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
@@ -316,6 +317,7 @@
     </Style>
   </Styles>
   <Paths>
+    <Path Id="3a245ecd-18e4-47f9-8795-15eec817d57a.OutputPath" Value="D:\Projects\Github\Project-Randy\DesignPatterns\Randy.DesignPatterns\bin\Debug\net6.0\Randy.DesignPatterns.dll" />
     <Path Id="3a245ecd-18e4-47f9-8795-15eec817d57a.OutputPathUri" Value="file:///D:/Projects/Github/Project-Randy/DesignPatterns/Randy.DesignPatterns/bin/Debug/net6.0/Randy.DesignPatterns.dll" />
   </Paths>
 </DirectedGraph>
