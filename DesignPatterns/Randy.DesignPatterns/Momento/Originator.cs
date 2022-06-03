@@ -46,6 +46,7 @@
 
         public string GetState3() => _state3;
 
+        /// <inheritdoc/>
         public virtual void RestoreSnapshot(IMomento snapshot)
         {
             if (snapshot is null)
@@ -83,6 +84,7 @@
             State2 = score;
         }
 
+        /// <inheritdoc/>
         public virtual IMomento TakeSnapshot()
         {
             return new Momento(GetState());
