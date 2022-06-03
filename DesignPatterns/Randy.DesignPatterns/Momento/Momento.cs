@@ -9,21 +9,21 @@
     {
         private DateTime _momentoTime;
 
-        public Momento(IList<State> states)
+        public Momento(IList<StateParameter> states)
         {
             States = states;
 
             _momentoTime = DateTime.Now;
         }
 
-        protected IList<State> States { get; set; }
+        protected IList<StateParameter> States { get; set; }
 
         public DateTime GetMomentoTime()
         {
             return _momentoTime;
         }
 
-        public IList<State> GetState()
+        public IList<StateParameter> GetState()
         {
             return States;
         }

@@ -1,8 +1,8 @@
 ﻿namespace Randy.DesignPatterns.Momento
 {
-    public class State
+    public class StateParameter
     {
-        public State(string name, object value)
+        public StateParameter(string name, object value)
         {
             Name = name;
             Value = value;

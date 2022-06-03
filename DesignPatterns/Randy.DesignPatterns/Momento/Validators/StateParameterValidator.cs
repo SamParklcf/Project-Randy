@@ -2,9 +2,9 @@
 {
     using FluentValidation;
 
-    public class StateValidator : AbstractValidator<State>
+    public class StateParameterValidator : AbstractValidator<StateParameter>
     {
-        public StateValidator()
+        public StateParameterValidator()
         {
             RuleFor(x => x.Name)
                 .Must(x => !string.IsNullOrWhiteSpace(x))

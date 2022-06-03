@@ -32,13 +32,13 @@
         public string State1 { get; protected set; }
         protected int State2 { get; set; }
 
-        public IList<State> GetState()
+        public IList<StateParameter> GetState()
         {
-            return new List<State>
+            return new List<StateParameter>
             {
-                new State(nameof(State1), State1),
-                new State(nameof(State2), State2),
-                new State(nameof(_state3), _state3),
+                new StateParameter(nameof(State1), State1),
+                new StateParameter(nameof(State2), State2),
+                new StateParameter(nameof(_state3), _state3),
             };
         }
 
@@ -110,7 +110,7 @@
                     .WithSeverity(Severity.Error)
                     .WithMessage(x => $"{nameof(x.GetState)} has not valid state. state is curropted.");
                 RuleForEach(x => x.GetState())
-                    .SetValidator(new StateValidator())
+                    .SetValidator(new StateParameterValidator())
                     .OverridePropertyName(nameof(IState.GetState));
             }
         }

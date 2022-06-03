@@ -15,7 +15,7 @@
                 .WithSeverity(Severity.Error)
                 .WithMessage(x => $"{nameof(x.GetMomentoTime)} is provided a wrong time.");
             RuleForEach(x => x.GetState())
-                .SetValidator(new StateValidator())
+                .SetValidator(new StateParameterValidator())
                 .OverridePropertyName(nameof(IState.GetState));
         }
     }

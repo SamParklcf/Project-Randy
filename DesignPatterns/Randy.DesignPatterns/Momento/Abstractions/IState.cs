@@ -4,6 +4,6 @@
 
     public interface IState
     {
-        IList<State> GetState();
+        IList<StateParameter> GetState();
     }
 }
