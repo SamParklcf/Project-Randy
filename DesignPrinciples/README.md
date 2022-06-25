@@ -22,9 +22,16 @@ And so the software is simply rewritten instead of reused.
 way to make the change. Some of the ways preserve the design, others do not (i.e. they are hacks.) When the design preserving methods are harder to employ than the 
 hacks, then the viscosity of the design is high. It is easy to do the wrong thing, but hard to do the right thing.
 Viscosity of environment comes about when the development environment is slow and inefficient. For example, if compile times are very long, engineers will be 
-tempted to make changes that don’t force large recompiles, even though those changes are not optiimal from a design point of view. 
+tempted to make changes that donï¿½t force large recompiles, even though those changes are not optiimal from a design point of view. 
 If the source code control system requires hours to check in just a few files, then engineers will be tempted to make changes that require as few check-ins as possible, regardless of whether the design is preserved.
 
 **What kind of changes cause designs to rot?** Changes that introduce new and unplanned for dependencies. Each of the four symptoms mentioned above is either 
 directly, or indirectly caused by improper dependencies between the modules of the software. 
 It is the dependency architecture that is degrading, and with it the ability of the software to be maintained.
+
+- [SOLID](/DesignPrinciples/README.md)
+    - Single Responsibility
+    - Open-Closed
+    - Liskov Substitution
+    - Interface Segregation
+    - Depenendency Inversion
