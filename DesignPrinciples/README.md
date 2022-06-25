@@ -29,7 +29,7 @@ If the source code control system requires hours to check in just a few files, t
 directly, or indirectly caused by improper dependencies between the modules of the software. 
 It is the dependency architecture that is degrading, and with it the ability of the software to be maintained.
 
-- [SOLID](/DesignPrinciples/README.md)
+- [SOLID](/DesignPrinciples/Randy.DesignPrinciples/SOLID/README.md)
     - Single Responsibility
     - Open-Closed
     - Liskov Substitution
