@@ -38,6 +38,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Randy.DesignPatterns", "Des
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Randy.DesignPatterns.Tests", "DesignPatterns\Randy.DesignPatterns.Tests\Randy.DesignPatterns.Tests.csproj", "{09D4AB2B-97B0-4660-83D4-E36F15383F42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randy.DesignPrinciples", "DesignPrinciples\Randy.DesignPrinciples\Randy.DesignPrinciples.csproj", "{58202D7B-70D8-47CA-979F-2F02BBDE62A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{09D4AB2B-97B0-4660-83D4-E36F15383F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09D4AB2B-97B0-4660-83D4-E36F15383F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09D4AB2B-97B0-4660-83D4-E36F15383F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58202D7B-70D8-47CA-979F-2F02BBDE62A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58202D7B-70D8-47CA-979F-2F02BBDE62A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58202D7B-70D8-47CA-979F-2F02BBDE62A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58202D7B-70D8-47CA-979F-2F02BBDE62A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{526446CD-7CB0-4590-9ADC-E14CC1B568F5} = {2C02F19E-7060-4DE8-8772-FB418C854960}
 		{3A245ECD-18E4-47F9-8795-15EEC817D57A} = {B56DF1C6-02C1-40DB-92AE-45D629BAEEC3}
 		{09D4AB2B-97B0-4660-83D4-E36F15383F42} = {B56DF1C6-02C1-40DB-92AE-45D629BAEEC3}
+		{58202D7B-70D8-47CA-979F-2F02BBDE62A2} = {B45B8330-5131-446A-BD79-BDD95853976A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CAB0F707-8437-443E-BDA5-19E34978A360}
