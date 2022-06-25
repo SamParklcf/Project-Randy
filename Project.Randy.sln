@@ -19,9 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnifiedModelingLanguage", "
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPatterns", "{B56DF1C6-02C1-40DB-92AE-45D629BAEEC3}"
-	ProjectSection(SolutionItems) = preProject
-		DesignPatterns\README.md = DesignPatterns\README.md
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPrinciples", "DesignPrinciples", "{B45B8330-5131-446A-BD79-BDD95853976A}"
 	ProjectSection(SolutionItems) = preProject
@@ -33,13 +30,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStruc
 		DataStructures\README.md = DataStructures\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randy.ObjectOrientedProgramming", "ObjectOrientedProgramming\Randy.ObjectOrientedProgramming\Randy.ObjectOrientedProgramming.csproj", "{A13324AB-2D50-4D82-9E16-42A4F36688E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Randy.ObjectOrientedProgramming", "ObjectOrientedProgramming\Randy.ObjectOrientedProgramming\Randy.ObjectOrientedProgramming.csproj", "{A13324AB-2D50-4D82-9E16-42A4F36688E7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Randy.UnifiedModelingLanguage", "UnifiedModelingLanguage\Randy.UnifiedModelingLanguage\Randy.UnifiedModelingLanguage.csproj", "{526446CD-7CB0-4590-9ADC-E14CC1B568F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randy.DesignPatterns", "DesignPatterns\Randy.DesignPatterns\Randy.DesignPatterns.csproj", "{3A245ECD-18E4-47F9-8795-15EEC817D57A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Randy.DesignPatterns", "DesignPatterns\Randy.DesignPatterns\Randy.DesignPatterns.csproj", "{3A245ECD-18E4-47F9-8795-15EEC817D57A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randy.DesignPatterns.Tests", "DesignPatterns\Randy.DesignPatterns.Tests\Randy.DesignPatterns.Tests.csproj", "{09D4AB2B-97B0-4660-83D4-E36F15383F42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Randy.DesignPatterns.Tests", "DesignPatterns\Randy.DesignPatterns.Tests\Randy.DesignPatterns.Tests.csproj", "{09D4AB2B-97B0-4660-83D4-E36F15383F42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,15 +45,7 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A13324AB-2D50-4D82-9E16-42A4F36688E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A13324AB-2D50-4D82-9E16-42A4F36688E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A13324AB-2D50-4D82-9E16-42A4F36688E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A13324AB-2D50-4D82-9E16-42A4F36688E7}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{526446CD-7CB0-4590-9ADC-E14CC1B568F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{526446CD-7CB0-4590-9ADC-E14CC1B568F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{526446CD-7CB0-4590-9ADC-E14CC1B568F5}.Release|Any CPU.ActiveCfg = Release|Any CPU

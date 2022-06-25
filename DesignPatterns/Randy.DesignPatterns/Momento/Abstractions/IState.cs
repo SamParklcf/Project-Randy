@@ -2,14 +2,14 @@
 {
     using System.Collections.Generic;
 
-    /// <summary> Provides functionalities to save state of the <see cref="Originator"/> class. </summary>
+    /// <summary> Provides functionalities to save state of the <see cref="Originator"/>. </summary>
     public interface IState
     {
         /// <summary>
-        /// Gets list of <see cref="StateParameter"/> s which indicates the <see cref="Originator"/>
+        /// Gets a list of <see cref="StateParameter"/> which indicates the <see cref="Originator"/>
         /// states that should be takes and restore of a snapshot of it.
         /// </summary>
-        /// <returns> </returns>
+        /// <returns> List of <see cref="StateParameter"/>.</returns>
         IList<StateParameter> GetState();
     }
 }
